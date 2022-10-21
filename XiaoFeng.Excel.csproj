@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="E:/Work/XiaoFeng.targets" />
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+		<OutputType>Library</OutputType>
+		<Title>XiaoFeng.Excel</Title>
+		<Authors>Jacky</Authors>
+		<Product>Excel操作，创建excel,编辑excel,读取excel内容，边框，字体，样式等功能</Product>
+		<Description>操作xlsx组件</Description>
+		<Copyright>CopyRight @ 2022-2023 魔法精灵(www.fayelf.com) QQ:7092734 Email:jacky@fayelf.com</Copyright>
+		<Company>河南魔法精灵软件科技有限公司</Company>
+		<VersionPrefix>1.0</VersionPrefix>
+		<VersionSuffix>0</VersionSuffix>
+		<Version>$(VersionPrefix).$(VersionSuffix)</Version>
+		<FileVersion>$(Version)</FileVersion>
+		<AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+		<ProductVersion>$(VersionPrefix)</ProductVersion>
+		<Deterministic>false</Deterministic>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+		<SignAssembly>False</SignAssembly>
+		<EnableNETAnalyzers>False</EnableNETAnalyzers>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<RepositoryUrl>https://github.com/zhuovi/XiaoFeng</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageIconUrl>http://nuget.fayelf.com/x.png</PackageIconUrl>
+		<PackageTags>XiaoFeng;FAYELF;</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReleaseNotes></PackageReleaseNotes>
+		<DelaySign>False</DelaySign>
+		<IsPackable>true</IsPackable>
+		<PackageProjectUrl>https://www.yuque.com/fayelf/xiaofeng.Excel</PackageProjectUrl>
+		<XiaoFeng>debug</XiaoFeng>
+	</PropertyGroup>
+</Project>
