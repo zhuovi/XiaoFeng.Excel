@@ -23,7 +23,7 @@
 		<RepositoryUrl>https://github.com/zhuovi/XiaoFeng.Excel</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageIconUrl>http://nuget.fayelf.com/x.png</PackageIconUrl>
-		<PackageTags>XiaoFeng;FAYELF;</PackageTags>
+		<PackageTags>XiaoFeng;FAYELF;Excel;xlsx</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageReleaseNotes></PackageReleaseNotes>
 		<DelaySign>False</DelaySign>
