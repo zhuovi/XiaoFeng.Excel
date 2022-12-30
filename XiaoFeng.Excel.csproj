@@ -6,7 +6,7 @@
 		<Authors>Jacky</Authors>
 		<Product>Excel操作，创建excel,编辑excel,读取excel内容，边框，字体，样式等功能</Product>
 		<Description>操作xlsx组件</Description>
-		<Copyright>CopyRight @ 2022-2023 魔法精灵(www.fayelf.com) QQ:7092734 Email:jacky@fayelf.com</Copyright>
+		<Copyright>CopyRight @ 2022-2024 魔法精灵(www.fayelf.com) QQ:7092734 Email:jacky@fayelf.com</Copyright>
 		<Company>魔法精灵</Company>
 		<VersionPrefix>1.0</VersionPrefix>
 		<VersionSuffix>0</VersionSuffix>
@@ -32,6 +32,6 @@
 		<XiaoFeng>debug</XiaoFeng>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="XiaoFeng" Version="3.0.10" />
+	  <ProjectReference Include="..\XiaoFeng.Core\XiaoFeng.Core.csproj" />
 	</ItemGroup>
 </Project>
