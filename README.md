@@ -37,19 +37,41 @@ XiaoFeng.Excel generator with [XiaoFeng.Excel](https://github.com/zhuovi/XiaoFen
 .NET CLI
 
 ```
-$ dotnet add package XiaoFeng.Excel
+$ dotnet add package XiaoFeng.Excel --version 1.0.0
 ```
 
 Package Manager
 
 ```
-PM> Install-Package XiaoFeng.Excel
+PM> Install-Package XiaoFeng.Excel --Version 1.0.0
 ```
 
 PackageReference
 
 ```
 <PackageReference Include="XiaoFeng.Excel" Version="1.0.0" />
+```
+
+Paket CLI
+
+```
+> paket add XiaoFeng.Excel --version 1.0.0
+```
+
+Script & Interactive
+
+```
+> #r "nuget: XiaoFeng.Excel, 1.0.0"
+```
+
+Cake
+
+```
+// Install XiaoFeng.Excel as a Cake Addin
+#addin nuget:?package=XiaoFeng.Excel&version=12.0.0
+
+// Install XiaoFeng.Excel as a Cake Tool
+#tool nuget:?package=XiaoFeng.Excel&version=1.0.0
 ```
 
 # XiaoFeng.Excel 操作
